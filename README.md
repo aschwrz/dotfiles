@@ -37,7 +37,7 @@ echo [git-repo-dir] >> .gitignore
 * [dotfile-alias]  checkout
 * if the above command fails (file clash) delete or rename the offending files and checkout again
 
-> Shortcut
+> Shortcut \
 > mkdir -p .config-backup && \
 > config checkout 2]&1 | egrep "\s+\." | awk {'print $1'} | \
 > xargs -I{} mv {} .config-backup/{}
