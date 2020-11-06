@@ -1,9 +1,9 @@
 # dotfiles
 
-* [dotfile-alias] --> dotfiles
-* [git-repo-dir] --> $HOME/Repos/dotfiles/
-* [dotfile-dir] --> %HOME/
-* [shell-file] --> $HOME/.zshrc
+* [dotfile-alias] -> dotfiles
+* [git-repo-dir] -> $HOME/Repos/dotfiles/
+* [dotfile-dir] -> $HOME/
+* [shell-file] -> $HOME/.zshrc
 
 ## Initial setup
 ##### Create & Initialize Repo
