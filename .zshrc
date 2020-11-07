@@ -77,6 +77,7 @@ plugins=(
 git
 git-flow
 taskwarrior
+tmux
 zsh-autosuggestions
 zsh-syntax-highlighting
 )
