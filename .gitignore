@@ -24,6 +24,7 @@
 .sudo_as_admin_successful
 .swt/
 .tooling/
+.viminfo
 .vscode/
 .wget-hsts
 .zcompdump
