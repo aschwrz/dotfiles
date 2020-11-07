@@ -75,10 +75,10 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 git
-zsh-autosuggestions
-zsh-syntax-highlighting
 git-flow
 taskwarrior
+zsh-autosuggestions
+zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
