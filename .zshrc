@@ -76,6 +76,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
 git
 zsh-autosuggestions
+zsh-syntax-highlighting
 git-flow
 taskwarrior
 )
