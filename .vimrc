@@ -1,3 +1,6 @@
+" enable spell checing
+set spelllang=en_us 
+
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
