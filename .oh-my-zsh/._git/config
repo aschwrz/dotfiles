@@ -6,11 +6,11 @@
 	eol = lf
 	autocrlf = false
 [fsck]
-	zeropaddedfilemode = ignore
+	zeroPaddedFilemode = ignore
 [fetch "fsck"]
-	zeropaddedfilemode = ignore
+	zeroPaddedFilemode = ignore
 [receive "fsck"]
-	zeropaddedfilemode = ignore
+	zeroPaddedFilemode = ignore
 [remote "origin"]
 	url = https://github.com/ohmyzsh/ohmyzsh.git
 	fetch = +refs/heads/master:refs/remotes/origin/master
