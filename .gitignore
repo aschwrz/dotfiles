@@ -42,6 +42,31 @@ Repos/
 Templates/
 Videos/
 snap/
+.ICEauthority
+
+
+## sort
+._oh-my-zsh/
+._zshrc
+.bash_functions
+.bashrc_ubuntu
+.byobu/
+.docker/
+.gimp-2.8/
+.kde/
+.node_repl_history
+.npmrc
+.nv/
+.purple.20201009-093753/
+.purple.20201009-094221/
+.purple/
+.px-proxy_configured
+.rest-client/
+.shell.pre-oh-my-zsh
+.thumbnails/
+.x2goclient/
+.xsel.log
+.zcompdump-cmtcleu67452880-5.4.2
 
 ### Vim ###
 ### Vim ###
