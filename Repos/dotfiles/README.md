@@ -11,15 +11,12 @@
 * cd [git-repo-dir]
 * git init --bare
 
-##### Add Repo place to the current gitignore
+##### Add gitignore to home dir
 touch .gitignore
-echo [git-repo-dir] >> .gitignore
+echo [git-repo-dir] >> ~/.gitignore
 
 ##### Set dotfiles alias 
 * alias [dotfile-alias]='/usr/bin/git --git-dir=[git-repo-dir] --work-tree=[dotfile-dir] '
-
-##### Hide not explicitly tracked files in git status
-* [dotfile-alias] config --local status.showUntrackedFiles no
   
 ##### Set alias permanently by adding it to the standard shell
 * echo "alias [dotfile-alias]='/usr/bin/git --git-dir=[git-repo-dir] --work-tree=[dotfile-dir]'" >> [shell-file] 
@@ -41,9 +38,6 @@ echo [git-repo-dir] >> .gitignore
 > mkdir -p .config-backup && \
 > config checkout 2]&1 | egrep "\s+\." | awk {'print $1'} | \
 > xargs -I{} mv {} .config-backup/{}
-
-##### Hide not explicitly tracked files in git status
-* [dotfile-alias]  config --local status.showUntrackedFiles no
 
 
 ## Usage    
