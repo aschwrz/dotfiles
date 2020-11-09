@@ -1,3 +1,26 @@
+# Prerequisites
+
+## Fonts installed
+
+Recommended font for powerlevel10k is the  "Meslo Nerd Font patched for Powerlevel10k"
+https://github.com/romkatv/powerlevel10k/blob/master/font.md
+
+In addition to the documentation, the whole font is saved in the repos .font directory and can be installed by doubleclick each and press install.
+
+### Font available for zsh
+Start zsh shell
+Menu Edit > Preferences > <Profilename> > Custom font = MesloLGS NF Regular (12)
+
+### Font available for vscode
+Start vscode
+Menu File > Preferences > Settings
+Search settings = terminal font
+Terminal > Integrated: Font Family = MesloLGS NF
+Terminal > Integrated: Font Size = 12
+
+## tmux installed
+sudo apt install tmux
+
 # dotfiles
 
 * [dotfile-alias] -> dotfiles
