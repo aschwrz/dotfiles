@@ -1,6 +1,9 @@
 " enable spell checing
 set spelllang=en_us 
 
+set backupdir=~/.vim/tmp
+set directory=~/.vim/tmp
+
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>

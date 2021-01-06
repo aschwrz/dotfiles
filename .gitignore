@@ -89,3 +89,14 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+
+.Xauthority
+.ddd/
+.dmrc
+.fonts/.uuid
+.gnome/
+.java/
+.xsession-errors
+.xsession-errors.old
+Programs/
+
