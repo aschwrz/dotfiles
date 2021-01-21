@@ -67,6 +67,8 @@ snap/
 .x2goclient/
 .xsel.log
 .zcompdump-cmtcleu67452880-5.4.2
+.pam_environment
+.wine/
 
 ### Vim ###
 ### Vim ###
