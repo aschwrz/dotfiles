@@ -1,6 +1,7 @@
 " enable spell checing
 set spelllang=en_us 
 
+set undodir=~/.vim/tmp
 set backupdir=~/.vim/tmp
 set directory=~/.vim/tmp
 
