@@ -5,6 +5,7 @@
 .config/
 .cups/
 .eclipse/
+.dbus/
 .emacs.d/
 .gitconfig
 #.gitignore
