@@ -1,5 +1,0 @@
-[description:"LNs Vormonat thematisieren" due:"1606086000" entry:"1605945555" mask:"++-" modified:"1609936801" recur:"monthly" status:"recurring" uuid:"c5a15a27-4a6f-4dc5-bd0a-df75d4d5908b"]
-[description:"FPL\/BAL füllen" due:"1606950000" entry:"1605945692" mask:"++-" modified:"1609936801" recur:"monthly" status:"recurring" uuid:"b1b8ddc2-9df5-44ca-bf4e-f2d0db6e1271"]
-[depends:"aead4f6b-af2f-4f4b-a94b-a04a5cc0427f" description:"Zwischenzeugnis @ CF Angefordert Antwort HR steht aus" due:"1609515313" entry:"1606117361" modified:"1606923313" status:"pending" tags:"ext" uuid:"00689686-fd4e-4325-a87e-98074bec7115"]
-[description:"LNs Vormonat thematisieren" due:"1611356400" entry:"1609936801" imask:"2" modified:"1606718973" parent:"c5a15a27-4a6f-4dc5-bd0a-df75d4d5908b" recur:"monthly" status:"pending" uuid:"9652fb40-fe4d-44c0-8566-715929534d0e"]
-[description:"FPL\/BAL füllen" due:"1612306800" entry:"1609936801" imask:"2" modified:"1607094295" parent:"b1b8ddc2-9df5-44ca-bf4e-f2d0db6e1271" recur:"monthly" status:"pending" uuid:"5a0eb82c-1764-435d-998a-afcf0a373720"]
