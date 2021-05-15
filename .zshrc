@@ -79,18 +79,26 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+	colorize
+        docker
+        docker-compose
 	git
         nvm
 	git-flow
-	taskwarrior
 	tmux
+	kubectl
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
 
-source $ZSH/oh-my-zsh.sh
+
 
 # User configuration
+
+#tmux additional config
+ZSH_TMUX_AUTOSTART=true
+
+source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -115,7 +123,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/Repos/dotfiles --work-tree=$HOME'
+alias df='/usr/bin/git --git-dir=$HOME/Repos/dotfiles --work-tree=$HOME'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
