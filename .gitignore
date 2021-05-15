@@ -1,111 +1,16 @@
-.bashrc
-.bash_history
-.bash_logout
-.cache/
-.config/
-.cups/
-.eclipse/
-.emacs.d/
-.gitconfig
-#.gitignore
-.gnupg/
-.local/
-.m2/
-.mono/
-.mozilla/
-.npm/
-.nvm/
-#.oh-my-zsh/
-.#p10k.zsh
-.pki/
-.profile
-.recently-used
-.ssh/
-.sudo_as_admin_successful
-.swt/
-.tooling/
-.viminfo
-.vscode/
-.wget-hsts
-.zcompdump
-.zcompdump-andreas-XPS-13-9360-5.8
-#.zshenv
-#.zshrc
-.zsh_history
-Desktop/
-Documents/
-Downloads/
-Music/
-Pictures/
-Public/
-Repos/
-Templates/
-Videos/
-snap/
-.ICEauthority
+# ignore everything
+*
 
+# but not these files
+!Repos/dotfiles/
+!.gitignore
+!.fonts/
 
-## sort
-._oh-my-zsh/
-._zshrc
-.bash_functions
-.bashrc_ubuntu
-.byobu/
-.docker/
-.gimp-2.8/
-.kde/
-.node_repl_history
-.npmrc
-.nv/
-.purple.20201009-093753/
-.purple.20201009-094221/
-.purple/
-.px-proxy_configured
-.rest-client/
-.shell.pre-oh-my-zsh
-.thumbnails/
-.x2goclient/
-.xsel.log
-.zcompdump-cmtcleu67452880-5.4.2
-.pam_environment
-.wine/
+## zsh
+!.oh-my-zsh
+!.p10k.zsh
+!.zshenv
+.zshrc
 
-### Vim ###
-### Vim ###
-# Swap
-[._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
-
-# Session
-Session.vim
-Sessionx.vim
-
-# Temporary
-.netrwhist
-*~
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
-
-.Xauthority
-.ddd/
-.dmrc
-.fonts/.uuid
-.gnome/
-.java/
-.xsession-errors
-.xsession-errors.old
-Programs/
-
-.openjfx
-.scenebuilder
-Schreibtisch
-.gtkrc-2.0
-.pencil/
-.yarnrc
-.task/
+## vim
+!.vimrc
