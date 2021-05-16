@@ -91,10 +91,11 @@ plugins=(
 	kubectl
 	mvn
 	npm
-        nvm
+    nvm
 	sudo
 	tmux
 	zsh-autosuggestions
+	zsh-interactive-cd
 	zsh-syntax-highlighting
 )
 
@@ -102,8 +103,9 @@ plugins=(
 
 # User configuration
 
-#tmux additional config
+# tmux additional config
 ZSH_TMUX_AUTOSTART=true
+
 
 source $ZSH/oh-my-zsh.sh
 
