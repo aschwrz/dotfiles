@@ -1,10 +1,3 @@
-" enable spell checing
-set spelllang=en_us 
-
-set undodir=~/.vim/tmp
-set backupdir=~/.vim/tmp
-set directory=~/.vim/tmp
-
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
@@ -56,3 +49,51 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
+" Insert Custom settings below!
+
+" Depending on docs, fixes several bugs with insert mode and the delete key...
+set nocompatible
+
+" enable spell checing
+set spelllang=en_us 
+
+" Set tmp dirs
+set undodir=~/.vim/tmp
+set backupdir=~/.vim/tmp
+set directory=~/.vim/tmp
+
+" Set line numbers
+:set number 
+:set relativenumber
+
+" Add syntax highlighting
+syntax on
+
+" Enable mouse clicking
+set mouse=a
+
+" Highlight matching brackets
+set showmatch
+
+" Autoindent
+" If intended, new lines will also be intended
+set autoindent
+
+" Smartindent
+" Automatically indents lines after opening a bracket in programming languages
+set smartindent
+
+" Backspace
+set backspace=2
+
+" tabstop
+set tabstop=4
+
+" smartabbing
+" move cursor to next tab position instead of a length of tabstop away
+set smarttab
+
+" shiftwidth
+" sets the standard indent
+set shiftwidth=4
