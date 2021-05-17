@@ -80,10 +80,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	colored-man-pages
-	colorize
 	command-not-found
-        docker
-        docker-compose
+	docker
+	docker-compose
 	git
 	git-flow
 	gitignore
@@ -91,7 +90,7 @@ plugins=(
 	kubectl
 	mvn
 	npm
-    nvm
+	nvm
 	sudo
 	tmux
 	zsh-autosuggestions
@@ -107,7 +106,7 @@ plugins=(
 ZSH_TMUX_AUTOSTART=true
 
 
-source $ZSH/oh-my-zsh.sh
+source /$ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
