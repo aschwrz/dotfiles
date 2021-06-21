@@ -10,7 +10,7 @@
 !.oh-my-zsh/
 !.p10k.zsh
 !.zshenv
-.zshrc
+!.zshrc
 
 ## vim
 !.vimrc

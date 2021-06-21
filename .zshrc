@@ -1,3 +1,12 @@
+# Start TMUX
+# oh my zsh  tmux plugin in combination with powerlevel10k seems to run
+# in problems during startup. On every second start the terminal will be
+# closed.
+# As a solution tmux will be started on zsh start as descibed below.
+if [ -z "$TMUX" ]; then
+	  exec tmux new-session -A -s workspace
+  fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -92,7 +101,6 @@ plugins=(
 	npm
 	nvm
 	sudo
-	tmux
 	zsh-autosuggestions
 	zsh-interactive-cd
 	zsh-syntax-highlighting
@@ -101,9 +109,6 @@ plugins=(
 
 
 # User configuration
-
-# tmux additional config
-ZSH_TMUX_AUTOSTART=true
 
 # fuzzy file find
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
