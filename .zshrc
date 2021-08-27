@@ -138,7 +138,7 @@ source /$ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias df='/usr/bin/git --git-dir=$HOME/Repos/dotfiles --work-tree=$HOME'
+alias df='/usr/bin/git --git-dir=$HOME/repos/dotfiles --work-tree=$HOME'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
