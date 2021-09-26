@@ -2,7 +2,7 @@
 *
 
 # but not these files
-!Repos/dotfiles/
+!repos/dotfiles/README.md
 !.gitignore
 !.fonts/
 
