@@ -65,7 +65,7 @@ set directory=~/.vim/tmp
 
 " Set line numbers
 :set number 
-:set relativenumber
+" :set relativenumber
 
 " Add syntax highlighting
 syntax on
@@ -88,7 +88,7 @@ set smartindent
 set backspace=2
 
 " tabstop
-set tabstop=4
+set tabstop=2
 
 " smartabbing
 " move cursor to next tab position instead of a length of tabstop away
@@ -96,4 +96,7 @@ set smarttab
 
 " shiftwidth
 " sets the standard indent
-set shiftwidth=4
+set shiftwidth=2
+
+" Set yaml indentation
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
