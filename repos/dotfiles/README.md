@@ -49,7 +49,6 @@ echo [git-repo-dir] >> ~/.gitignore
 * Restart/Resource shell
 
 ##### Make sure the Repo is part of the .gitignore
-* cat [git-repo-dir]/gitignore
 * git clone --bare [git-repo-url] [git-repo-dir]
     
 ##### Checkout the actual content from the bare repo
